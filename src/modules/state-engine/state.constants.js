@@ -1,11 +1,6 @@
 
-/*
- * Purpose:
- * Defines all valid transaction states used by DalaTrust.
- *
- * These constants help us avoid spelling mistakes when checking
- * or updating a transaction's current state.
- */
+// Defines all valid transaction states 
+ 
 
 // Define the valid states a transaction can pass through.
 export const TRANSACTION_STATES = Object.freeze({
